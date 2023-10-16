@@ -52,4 +52,4 @@ with gr.Blocks() as demo:
     clear.click(lambda: None, None, chatbot, queue=False)
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=8080)
+    demo.launch(server_name="127.0.0.1", server_port=8080, share=True)

@@ -1,3 +1,9 @@
+---
+title: astronomer-bot
+app_file: src/app.py
+sdk: gradio
+sdk_version: 3.47.1
+---
 # palm-vertex-ai-chatbot
 
 An example chatbot app with Gradio that uses the PaLM API from Vertex AI in
